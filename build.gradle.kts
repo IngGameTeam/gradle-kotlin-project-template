@@ -24,7 +24,7 @@ allprojects {
     }
 }
 
-subprojects {
+allprojects {
     apply(plugin = "org.jetbrains.kotlin.jvm")
     apply(plugin = "com.github.johnrengelman.shadow")
 
