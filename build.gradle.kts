@@ -46,10 +46,8 @@ repositories {
 }
 
 dependencies {
-    compileOnly ("com.mojang:authlib:1.5.21")
+//    compileOnly ("com.mojang:authlib:1.5.21")
+//    compileOnly ("org.spigotmc:spigot:1.18-R0.1-SNAPSHOT")
     compileOnly ("org.spigotmc:spigot-api:1.18-R0.1-SNAPSHOT")
-    compileOnly ("org.spigotmc:spigot:1.18-R0.1-SNAPSHOT")
-    compileOnly ("com.eatthepath:fast-uuid:0.1")
     compileOnly ("org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version")
-    compileOnly ("io.github.monun:invfx-api:3.1.0")
 }
